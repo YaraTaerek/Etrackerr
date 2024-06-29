@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+/* :root{
+    -olive-green:#12401A
+    -orange:#FDB138
+} */
+
+.footer{
+    
+    background-color: #12401A;
+    position: relative;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+  row-gap: 5px;
+  width: 100%;
+  color: white;
+  display: flex;
+    flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.footer .icons{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.footer .icons :hover{
+    color: #FDB138;
+}
+.footer .contact{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer img{
+    width:40px ;
+    margin:3px;
+    border-radius: 50%;
+}
